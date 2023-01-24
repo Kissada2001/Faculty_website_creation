@@ -1,0 +1,37 @@
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.container .box2 a{
+    background-color: tomato;
+}
+.container .box2 img{
+    width: 295px;
+    
+}
+.container .box2 p{
+    text-indent: 50px;
+}
+.container .box2 h3{
+    margin-top: 20px;
+}
+@media screen and (max-width: 400px) {
+    
+    .container .box2 h1,h2{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    .container .box2 h3{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .container .box2 h1,h2{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    .container .box2 h3{
+        font-size: 1rem;
+    }
+}

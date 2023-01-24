@@ -1,0 +1,37 @@
+.container .study1 a h2{
+    color: #1f1d1d;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+.container .study1 a h2:hover{
+    color: #524b4b;   
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.container .box2 .study1 img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 400px) {
+    .container .box2 .study1 h2{
+        color: #1f1d1d;
+        margin-bottom: 40px;
+        font-size: 1rem;
+    }
+    .container .study1 a h2:hover{
+        color: #524b4b;   
+    }
+}
+@media screen and (max-width:900px) {
+    .container .box2 .study1 h2{
+        color: #1f1d1d;
+        margin-bottom: 40px;
+        font-size: 1.2rem;
+    }
+    .container .study1 a h2:hover{
+        color: #524b4b;   
+    }
+}

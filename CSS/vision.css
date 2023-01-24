@@ -1,0 +1,50 @@
+
+  /* ---------------------------- */
+.container{
+    width: 70%;
+    margin: 0 auto;
+      
+}
+.container .box2 h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.container .box2 p, .box2 ul{
+    text-indent: 2.5rem;
+    font-size: 1.05rem;
+}
+.container .box2 h3{
+    font-size: 1.2rem;
+}
+.container .box2 ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 900px){
+    .container .box2 h1{
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    .container .box2 h3{
+      font-size: 1.2rem;
+    }
+    .container .box2 ul li{
+      font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .container .box2 h1{
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    .container .box2 p{
+      font-size: 0.8rem;
+    }
+    .container .box2 h3{
+        font-size: 0.8rem;
+      }
+
+}
+
+  
